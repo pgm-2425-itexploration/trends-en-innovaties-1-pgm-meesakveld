@@ -3,7 +3,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
-import './styles/vars.css' // Imported the added vars.css file
+import './styles/vars.css' 
+import './styles/output.css' 
 
 export default {
   extends: DefaultTheme,
